@@ -1,5 +1,1 @@
-#heading {
-    font-size: 72px;
-    font-weight: bold;
-    color: red;
-}
+@import "tailwindcss";

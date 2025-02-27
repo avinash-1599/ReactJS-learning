@@ -1,0 +1,57 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "Learning React from namaste dev",
+  "main": "App.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest",
+    "watch-test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avinash-1599/ReactJS-learning.git"
+  },
+  "keywords": [
+    "react.js",
+    "html",
+    "css",
+    "frontend"
+  ],
+  "author": "Avinash Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avinash-1599/ReactJS-learning/issues"
+  },
+  "homepage": "https://github.com/avinash-1599/ReactJS-learning#readme",
+  "devDependencies": {
+    "@babel/core": "^7.26.9",
+    "@babel/preset-env": "^7.26.9",
+    "@babel/preset-react": "^7.26.3",
+    "@tailwindcss/postcss": "^4.0.7",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.2.0",
+    "autoprefixer": "^10.4.20",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "jest-transform-stub": "^2.0.0",
+    "parcel": "^2.13.3",
+    "postcss": "^8.5.3",
+    "process": "^0.11.10",
+    "tailwindcss": "^4.0.7"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.6.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^6.29.0",
+    "redux-persist": "^6.0.0",
+    "uninstall": "^0.0.0"
+  },
+  "browsersList": [
+    "last 2 versions"
+  ]
+}
